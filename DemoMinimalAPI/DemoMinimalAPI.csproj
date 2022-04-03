@@ -9,14 +9,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+	  <PackageReference Include="JsonObjectSerializer" Version="0.7.6" />
+	  <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.2.7" />
+	  <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
 	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.3" />
 	  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.3">
 	  <PrivateAssets>All</PrivateAssets>
 	  <IncludeAssets>runtime; build; contentfiles; analyzes; buildtransitive</IncludeAssets>
 	</PackageReference>
+	  <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
+	  <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.14.0" />
     <PackageReference Include="MiniValidation" Version="0.4.2-pre.20220306.48" />
     <PackageReference Include="NetDevPack.Identity" Version="6.0.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
