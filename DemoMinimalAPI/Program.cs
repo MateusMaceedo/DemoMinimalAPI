@@ -45,7 +45,7 @@ builder.Services.AddSwaggerGen(c =>
     {
         Title = "Minimal API Sample",
         Description = "Developed by Mateus Macedo - Owner @ mmacedos",
-        Contact = new OpenApiContact { Name = "Eduardo Pires", Email = "suporteti@mmacedos.net.br" },
+        Contact = new OpenApiContact { Name = "Mateus Macedo", Email = "suporteti@mmacedos.net.br" },
         License = new OpenApiLicense { Name = "MIT", Url = new Uri("https://opensource.org/licenses/MIT") }
     });
 
