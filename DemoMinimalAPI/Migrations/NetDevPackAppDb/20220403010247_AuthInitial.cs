@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-#nullable disablle
+#nullable disable
 
 namespace DemoMinimalAPI.Migrations.NetDevPackAppDb
 {
